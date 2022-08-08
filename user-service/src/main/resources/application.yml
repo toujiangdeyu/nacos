@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
-      server-addr: 149.129.106.128:8848
+      server-addr: 127.0.0.1:8848
       discovery:
         cluster-name: HZ # 集群名称，杭州集群
 mybatis:
@@ -21,4 +21,7 @@ logging:
   level:
     com.yun: debug
   pattern:
-    dateformat: MM-dd HH:mm:ss:SSS
+    dateformat: yyyy-MM-dd HH:mm:ss:SSS
+
+pattern:
+  dateformat: yyyy-MM-dd HH:mm:ss:SSS

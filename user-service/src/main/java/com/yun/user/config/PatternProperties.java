@@ -10,4 +10,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "pattern")
 public class PatternProperties {
     public String dateformat;
+
+
+
 }

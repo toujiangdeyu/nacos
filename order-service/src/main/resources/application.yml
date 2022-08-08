@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
-      server-addr: 149.129.106.128:8848
+      server-addr: 127.0.0.1:8848
       discovery:
         cluster-name: HZ
         ephemeral: false
@@ -23,7 +23,7 @@ logging:
   level:
     com.xn2001: debug
   pattern:
-    dateformat: MM-dd HH:mm:ss:SSS
+    dateformat: yyyy-MM-dd HH:mm:ss:SSS
 
 #userservice: # 给需要调用的微服务配置负载均衡规则，orderservice服务去调用userservice服务
 #  ribbon:

@@ -37,6 +37,7 @@ public class UserController {
     @GetMapping("now2")
     public String now2(){
         //格式化时间
+        System.out.println("pattern::"+patternProperties.dateformat);
         return LocalDateTime.now().format(DateTimeFormatter.ofPattern(patternProperties.dateformat));
     }
 
